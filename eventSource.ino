@@ -3,8 +3,8 @@
 #include <Ticker.h>
 
 #define TEMP_PIN 16
-#define SSID "larryb"
-#define PASSWD "clownfish"
+#define SSID "ssid"
+#define PASSWD "passwd"
 
 AsyncWebServer server(80);
 AsyncEventSource events("/events");
